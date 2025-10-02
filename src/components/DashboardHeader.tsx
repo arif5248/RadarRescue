@@ -71,7 +71,7 @@ export const DashboardHeader = () => {
                 </NavLink>
 
                 <NavLink
-                  to='/government'
+                  to='/ngoAndGov'
                   className={({ isActive }) =>
                     `${baseLink} ${isActive ? active : inactive}`
                   }

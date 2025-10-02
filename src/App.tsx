@@ -10,8 +10,9 @@ import Research from '@/research/Index'
 import KidsGame from '@/KidsGame/pages/Index.tsx'
 import Level1 from '@/KidsGame/pages/Level1.tsx'
 import Level2 from '@/KidsGame/pages/Level2'
+import NgoAndGov from '@/NgoAndGov/pages/Index'
 import { DashboardHeader } from './components/DashboardHeader'
-// import { Footer } from './components/Footer'
+import { Footer } from './components/Footer'
 // import { WaterDropEarthBackground } from '@/components/WaterDropEarthBackground' // 👈 add this
 
 const queryClient = new QueryClient()
@@ -33,10 +34,11 @@ const App = () => (
             <Route path='/kidsGame' element={<KidsGame />} />
             <Route path='/level/1' element={<Level1 />} />
             <Route path='/level/2' element={<Level2 />} />
+            <Route path='/ngoAndGov' element={<NgoAndGov />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path='*' element={<NotFound />} />
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </BrowserRouter>
       </TooltipProvider>
     </LanguageProvider>
