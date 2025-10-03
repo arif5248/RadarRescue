@@ -91,7 +91,7 @@ const TimeMachine = () => {
                 type="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
-                className="border-purple/30 bg-navy-light text-foreground"
+                className="border-purple/30 bg-navy-light text-black"
               />
             </div>
             <div className="space-y-2">
@@ -104,7 +104,7 @@ const TimeMachine = () => {
                 type="time"
                 value={time}
                 onChange={(e) => setTime(e.target.value)}
-                className="border-purple/30 bg-navy-light text-foreground"
+                className="border-purple/30 bg-navy-light text-black"
               />
             </div>
           </div>
