@@ -223,3 +223,7 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+.nav-center-offset {
+  margin-left: -80px;
+}

@@ -13,7 +13,7 @@ export const GovernmentSection = () => {
         <div className='grid md:grid-cols-2 gap-12 items-center'>
           <div className='space-y-6'>
             <div>
-              <h2 className='text-4xl md:text-5xl font-bold mb-2 text-primary-foreground'>
+              <h2 className='text-4xl md:text-5xl font-bold mb-2 text-white'>
                 🔹 {t('government.title')}
               </h2>
               <p className='text-xl text-cyan-glow font-semibold'>

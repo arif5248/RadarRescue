@@ -28,7 +28,7 @@ export const PredictionsForecast = () => {
     {
       time: '48 Hours',
       date: 'Saturday, Oct 4, 2025 — 2:00 PM',
-      division: 'Sylhet Division',
+      division: 'Feni Division',
       weather: '🌩️ Thunderstorms with heavy rain',
       weatherChance: 85,
       condition: 'River water levels rising rapidly',
@@ -40,7 +40,7 @@ export const PredictionsForecast = () => {
         'Charge mobile phones and backup batteries'
       ],
       shelter: {
-        name: 'Sylhet Central Stadium Shelter',
+        name: 'Feni Central Stadium Shelter',
         distance: '3.1 km',
         capacity: 65
       },
@@ -49,7 +49,7 @@ export const PredictionsForecast = () => {
     {
       time: '72 Hours',
       date: 'Sunday, Oct 5, 2025 — 9:00 AM',
-      division: 'Chittagong Division',
+      division: 'Feni Division',
       weather: '⛅ Partly cloudy with scattered showers',
       weatherChance: 45,
       condition: 'Moderate risk in coastal areas',
@@ -61,7 +61,7 @@ export const PredictionsForecast = () => {
         'Check on elderly neighbors'
       ],
       shelter: {
-        name: 'Chittagong College Shelter',
+        name: 'Feni College Shelter',
         distance: '1.8 km',
         capacity: 40
       },

@@ -20,13 +20,13 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.shelters': 'Find Shelters',
     
     // Hero
-    'hero.title': 'FloodSafe',
+    'hero.title': 'Radar Rescue',
     'hero.subtitle': 'From Space to Safety',
     'hero.description': 'Turning SAR satellite data + AI into life-saving flood insights',
     'hero.cta': 'Explore Platform',
     
     // Researchers
-    'researchers.title': 'FloodSafe Insight',
+    'researchers.title': 'Radar Rescue Insight',
     'researchers.subtitle': 'For Researchers',
     'researchers.feature1': 'Before–After SAR change maps in 3D',
     'researchers.feature2': 'Complete datasets: SAR, rainfall, DEM, population',
@@ -35,7 +35,7 @@ const translations: Record<Language, Record<string, string>> = {
     'researchers.impact': 'Spend less time cleaning data, more time discovering solutions',
     
     // Government
-    'government.title': 'FloodSafe Dashboard',
+    'government.title': 'Radar Rescue Dashboard',
     'government.subtitle': 'For Government',
     'government.feature1': 'Live SAR monitoring of flood zones in 3D',
     'government.feature2': 'Predictive risk dashboard (72-hour forecast)',
@@ -44,7 +44,7 @@ const translations: Record<Language, Record<string, string>> = {
     'government.impact': 'Move from reacting to preventing disasters',
     
     // NGOs
-    'ngos.title': 'FloodSafe Relief Map',
+    'ngos.title': 'Radar Rescue Relief Map',
     'ngos.subtitle': 'For NGOs',
     'ngos.feature1': 'AI danger zone highlighting',
     'ngos.feature2': 'Nearest shelter map with capacity status',

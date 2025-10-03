@@ -46,14 +46,14 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4 text-cyan-glow">Contact</h4>
             <p className="text-sm text-primary-foreground/80">
               Emergency Hotline: 999<br />
-              Email: help@floodsafe.bd<br />
+              Email: help@radarrescue.bd<br />
               Available 24/7
             </p>
           </div>
         </div>
 
         <div className="border-t border-cyan-glow/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© 2025 FloodSafe. All rights reserved. Built with 💙 for Bangladesh.</p>
+          <p>© 2025 Radar Rescue. All rights reserved. Built with 💙 for Bangladesh.</p>
         </div>
       </div>
     </footer>
